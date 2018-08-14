@@ -1,0 +1,20 @@
+{
+  "name": "easy-demo-template",
+  "version": "0.0.1",
+  "description": "a tool for creating a demo repo with menu and livereload",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "keywords": [
+    "demo template",
+    "tool"
+  ],
+  "author": "kulerhuang",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1"
+  }
+}
