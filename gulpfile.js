@@ -1,7 +1,8 @@
 /**
  * Created by zhijie.huang on 2017/3/7.
  */
-const fs = require('fs'),
+const config = require('package.json'),
+    fs = require('fs'),
     gulp = require('gulp'),
     browserSync = require('browser-sync'),
     del = require('del'),
@@ -77,7 +78,7 @@ function createIndex() {
             <title>home page</title>
         </head>
         <body>
-            <h1>echarts-demo homepage</h1>
+            <h1>${config.name} homepage</h1>
             ${links}
         </body>
         </html>`
